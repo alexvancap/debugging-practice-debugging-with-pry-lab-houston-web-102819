@@ -15,6 +15,8 @@ def selection(num)
      return "YUM YUM MUNCH MUNCH MUNCH"
   elsif num == "2"
      return "HAM HAM HAM IN MY TUMMY"
+  else
+    return "oops"
   end
 end
 
