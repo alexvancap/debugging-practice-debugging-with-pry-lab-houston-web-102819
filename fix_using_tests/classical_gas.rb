@@ -7,6 +7,7 @@ class GasStation
     @brand = brand
     @unleaded_price = unleaded_price
     dinobones.unleaded_price = 100
+    binding.pry
   end
 
 end
