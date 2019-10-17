@@ -1,4 +1,3 @@
-require 'pry'
 class GasStation
 
   attr_reader :brand, :unleaded_price
@@ -7,7 +6,6 @@ class GasStation
     @brand = brand
     @unleaded_price = unleaded_price
   end
-
 
 end
 
