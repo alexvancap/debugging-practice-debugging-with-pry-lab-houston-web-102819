@@ -6,10 +6,12 @@ class GasStation
   def initialize(brand, unleaded_price)
     @brand = brand
     @unleaded_price = unleaded_price
+    puts GasStation.petrol_petes
   end
 
 end
 
+petrol_petes =
 GasStation.new("Petrol Pete's", 50)
-GasStation.new("The Seashore Shell", 40)
-GasStation.new("Dino Bones Gas and Grill", 60)
+seashore_shell = GasStation.new("The Seashore Shell", 40)
+dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
