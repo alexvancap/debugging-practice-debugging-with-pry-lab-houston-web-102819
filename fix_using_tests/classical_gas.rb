@@ -8,7 +8,6 @@ class GasStation
     @unleaded_price = unleaded_price
   end
 
-  binding.pry
 
 end
 
