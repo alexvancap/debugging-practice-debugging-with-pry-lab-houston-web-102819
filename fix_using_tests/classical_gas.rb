@@ -6,7 +6,6 @@ class GasStation
   def initialize(brand, unleaded_price)
     @brand = brand
     @unleaded_price = unleaded_price
-    puts GasStation.petrol_petes
   end
 
 end
