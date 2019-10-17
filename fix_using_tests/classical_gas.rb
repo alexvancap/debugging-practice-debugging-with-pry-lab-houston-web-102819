@@ -10,8 +10,6 @@ class GasStation
 
 end
 
-petrol_petes = ("Petrol Pete's", 50)
-
-GasStation.new("Petrol Pete's", 50)
+petrol_petes = GasStation.new("Petrol Pete's", 50)
 seashore_shell = GasStation.new("The Seashore Shell", 40)
 dinobones = GasStation.new("Dino Bones Gas and Grill", 60)
