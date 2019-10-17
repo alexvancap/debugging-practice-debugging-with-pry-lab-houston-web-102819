@@ -10,7 +10,7 @@ class GasStation
 
 end
 
-@dinobones.unleaded_price
+@dinobones.@unleaded_price
 
 petrol_petes = GasStation.new("Petrol Pete's", 50)
 seashore_shell = GasStation.new("The Seashore Shell", 40)
